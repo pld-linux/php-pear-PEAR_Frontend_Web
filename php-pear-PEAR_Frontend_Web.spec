@@ -1,6 +1,7 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		PEAR
 %define		_subclass	Frontend
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}_Web
 
 Summary:	%{_pearname} - HTML (Web) PEAR package manager
@@ -10,8 +11,8 @@ Version:	0.3
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	7d90c55962a7760ef7b7834a6d4338aa
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	7d90c55962a7760ef7b7834a6d4338aa
 URL:		http://pear.php.net/package/PEAR_Frontend_Web/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -23,9 +24,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Web interface to the PEAR package manager. Needed only when you want
 to use PEAR from their CVS.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 HTML-owy (webowy) interfejs do zarz±dcy pakietów PEAR-a. Potrzebny
 tylko, je¿eli chcesz u¿ywaæ PEAR-a z ich CVS-u.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
