@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - HTML (Web) PEAR package manager
 Summary(pl):	%{_pearname} - HTML-owy zarz±dca pakietów PEAR-a
 Name:		php-pear-%{_pearname}
-Version:	0.3
+Version:	0.4
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	7d90c55962a7760ef7b7834a6d4338aa
+# Source0-md5:	9aafb3d1696cf38193afa9d1921190e2
 URL:		http://pear.php.net/package/PEAR_Frontend_Web/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
