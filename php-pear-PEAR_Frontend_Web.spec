@@ -27,8 +27,8 @@ to use PEAR from their CVS.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-HTML-owy (webowy) interfejs do zarz±dcy pakietów PEAR-a. Potrzebny
-tylko, je¿eli chcesz u¿ywaæ PEAR-a z ich CVS-u.
+Interfejs HTML-owy (WWW) do zarz±dcy pakietów PEAR-a. Potrzebny tylko,
+je¿eli chcesz u¿ywaæ PEAR-a z ich CVS-u.
 
 Ta klasa ma w PEAR status: %{_status}.
 
