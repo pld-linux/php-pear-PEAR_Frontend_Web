@@ -1,7 +1,8 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          PEAR
-%define         _subclass       Frontend
+%define		_class		PEAR
+%define		_subclass	Frontend
 %define		_pearname	%{_class}_%{_subclass}_Web
+
 Summary:	%{_pearname} - HTML (Web) PEAR package manager
 Summary(pl):	%{_pearname} - HTML-owy zarz±dca pakietów PEAR-a
 Name:		php-pear-%{_pearname}
