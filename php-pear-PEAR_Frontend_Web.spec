@@ -2,11 +2,11 @@
 %define         _class          PEAR
 %define         _subclass       Frontend
 %define		_pearname	%{_class}_%{_subclass}_Web
-Summary:	%{_class}_%{_subclass} - HTML (Web) PEAR Package Manager
-Summary(pl):	%{_class}_%{_subclass} - HTML-owy menad¿er pakietów PEAR-a
+Summary:	%{_pearname} - HTML (Web) PEAR Package Manager
+Summary(pl):	%{_pearname} - HTML-owy menad¿er pakietów PEAR-a
 Name:		php-pear-%{_pearname}
 Version:	0.1
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
