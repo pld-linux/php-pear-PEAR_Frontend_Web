@@ -24,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Web interface to the PEAR package manager. Needed only when you want
 to use PEAR from their CVS.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 HTML-owy (webowy) interfejs do zarz±dcy pakietów PEAR-a. Potrzebny
