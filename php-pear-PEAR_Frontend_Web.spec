@@ -19,12 +19,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Web interface to the PEAR package manager.
-Needed only when you want to use PEAR from their CVS.
+Web interface to the PEAR package manager. Needed only when you want
+to use PEAR from their CVS.
 
 %description -l pl
-HTML-owy (webowy) interfejs do zarz±dcy pakietów PEAR-a.
-Potrzebny tylko, je¿eli chcesz u¿ywaæ PEAR-a z ich CVS-u.
+HTML-owy (webowy) interfejs do zarz±dcy pakietów PEAR-a. Potrzebny
+tylko, je¿eli chcesz u¿ywaæ PEAR-a z ich CVS-u.
 
 %prep
 %setup -q -c
