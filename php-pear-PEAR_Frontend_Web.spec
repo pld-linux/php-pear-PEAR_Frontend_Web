@@ -3,7 +3,7 @@
 %define         _subclass       Frontend
 %define		_pearname	%{_class}_%{_subclass}_Web
 Summary:	%{_class}_%{_subclass} - HTML (Web) PEAR Package Manager
-Summary(pl):	%{_class}_%{_subclass} - HTML-owy managera pakietów PEAR-a
+Summary(pl):	%{_class}_%{_subclass} - HTML-owy menad¿er pakietów PEAR-a
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	1
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Web Interface to the PEAR Package Manager.
 
 %description -l pl
-HTML-owy (Web-owy) interfejs do managera pakietów PEAR-a.
+HTML-owy (webowy) interfejs do menad¿era pakietów PEAR-a.
 
 %prep
 %setup -q -c
