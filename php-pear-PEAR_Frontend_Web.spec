@@ -9,7 +9,7 @@ Summary(pl):	%{_pearname} - HTML-owy zarz±dca pakietów PEAR-a
 Name:		php-pear-%{_pearname}
 Version:	0.5.0
 %define	_snap	20051120
-%define	_rel	0.1
+%define	_rel	1
 Release:	0.%{_snap}.%{_rel}
 License:	PHP 2.02
 Group:		Development/Languages/PHP
