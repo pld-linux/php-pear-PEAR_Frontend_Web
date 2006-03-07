@@ -17,6 +17,7 @@ Group:		Development/Languages/PHP
 Source0:	%{_pearname}-%{version}.tgz
 # Source0-md5:	d21507ff3f9757ec23c41742e1a9643e
 URL:		http://pear.php.net/package/PEAR_Frontend_Web/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-PEAR >= 1:1.4.0-0.a1
