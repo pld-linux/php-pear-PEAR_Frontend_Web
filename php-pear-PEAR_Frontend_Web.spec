@@ -1,21 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		PEAR
 %define		_subclass	Frontend
-%define		_status		beta
+%define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}_Web
 
 Summary:	%{_pearname} - HTML (Web) PEAR package manager
 Summary(pl):	%{_pearname} - HTML-owy zarz±dca pakietów PEAR-a
 Name:		php-pear-%{_pearname}
-Version:	0.5.0
-%define	_snap	20051120
-%define	_rel	1
-Release:	0.%{_snap}.%{_rel}
+Version:	0.5.1
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-#Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-Source0:	%{_pearname}-%{version}.tgz
-# Source0-md5:	d21507ff3f9757ec23c41742e1a9643e
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	d469f82a95b644898ea4a9536ca97c45
 URL:		http://pear.php.net/package/PEAR_Frontend_Web/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
