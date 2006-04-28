@@ -17,9 +17,9 @@ URL:		http://pear.php.net/package/PEAR_Frontend_Web/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
-Requires:	php-pear-PEAR >= 1:1.4.0-0.a1
-Requires:	php-pear-Net_UserAgent_Detect
 Requires:	php-pear-HTML_Template_IT
+Requires:	php-pear-Net_UserAgent_Detect
+Requires:	php-pear-PEAR >= 1:1.4.0-0.a1
 Provides:	pear(Frontend)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
