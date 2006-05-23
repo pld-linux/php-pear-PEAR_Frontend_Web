@@ -16,6 +16,7 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/PEAR_Frontend_Web/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
 Requires:	php-pear-HTML_Template_IT
 Requires:	php-pear-Net_UserAgent_Detect
