@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}_Web
 
 Summary:	%{_pearname} - HTML (Web) PEAR package manager
-Summary(pl):	%{_pearname} - HTML-owy zarz±dca pakietów PEAR-a
+Summary(pl.UTF-8):   %{_pearname} - HTML-owy zarzÄ…dca pakietÃ³w PEAR-a
 Name:		php-pear-%{_pearname}
 Version:	0.5.1
 Release:	1
@@ -31,9 +31,9 @@ to use PEAR from their CVS.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Interfejs HTML-owy (WWW) do zarz±dcy pakietów PEAR-a. Potrzebny tylko,
-je¿eli chcesz u¿ywaæ PEAR-a z ich CVS-u.
+%description -l pl.UTF-8
+Interfejs HTML-owy (WWW) do zarzÄ…dcy pakietÃ³w PEAR-a. Potrzebny tylko,
+jeÅ¼eli chcesz uÅ¼ywaÄ‡ PEAR-a z ich CVS-u.
 
 Ta klasa ma w PEAR status: %{_status}.
 
