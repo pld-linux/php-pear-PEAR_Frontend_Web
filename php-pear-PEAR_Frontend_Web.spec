@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}_Web
 
 Summary:	%{_pearname} - HTML (Web) PEAR package manager
-Summary(pl.UTF-8):   %{_pearname} - HTML-owy zarządca pakietów PEAR-a
+Summary(pl.UTF-8):	%{_pearname} - HTML-owy zarządca pakietów PEAR-a
 Name:		php-pear-%{_pearname}
 Version:	0.5.1
 Release:	1
