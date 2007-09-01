@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - HTML (Web) PEAR package manager
 Summary(pl.UTF-8):	%{_pearname} - HTML-owy zarządca pakietów PEAR-a
 Name:		php-pear-%{_pearname}
-Version:	0.5.1
+Version:	0.7.1
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	d469f82a95b644898ea4a9536ca97c45
+# Source0-md5:	5225b2d8ba384e18ed5bdd195fbaf7da
 URL:		http://pear.php.net/package/PEAR_Frontend_Web/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -50,16 +50,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc install.log
-%doc docs/%{_pearname}/docs/*
-%dir %{php_pear_dir}/%{_class}/%{_subclass}/Web
+%doc install.log docs/%{_pearname}/docs/*
+%{php_pear_dir}/pearfrontendweb.php
 %{php_pear_dir}/.registry/*.reg
-%{php_pear_dir}/%{_class}/*.php
-%{php_pear_dir}/%{_class}/%{_subclass}/*.php
-# FIXME: to data/ directory?
-%{php_pear_dir}/%{_class}/%{_subclass}/Web/*.png
-%{php_pear_dir}/%{_class}/%{_subclass}/Web/*.gif
-%{php_pear_dir}/%{_class}/%{_subclass}/Web/*.jpg
-%{php_pear_dir}/%{_class}/%{_subclass}/Web/*.html
-%{php_pear_dir}/%{_class}/%{_subclass}/Web/*.css
-%{php_pear_dir}/%{_class}/%{_subclass}/Web/*.js
+%{php_pear_dir}/%{_class}/Command/*
+%{php_pear_dir}/%{_class}/%{_subclass}/*
+%{php_pear_dir}/data/%{_pearname}
