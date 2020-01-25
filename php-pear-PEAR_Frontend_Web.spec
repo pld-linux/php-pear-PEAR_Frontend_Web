@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	PEAR_Frontend_Web
 Summary:	%{_pearname} - HTML (Web) PEAR package manager
